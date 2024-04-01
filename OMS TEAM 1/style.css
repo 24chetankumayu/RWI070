@@ -1,0 +1,276 @@
+.body {
+    background-color: rgb(234, 145, 13);
+    color: aquamarine;
+}
+
+
+--------------------------------------------- header --------------------------------------------- */ .background-header {
+    border-bottom: none !important;
+    background-color: #fff;
+    height: 80px !important;
+    position: fixed !important;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15) !important;
+}
+
+
+
+.navbar-dark .navbar-nav .nav-link {
+    font-family: 'Oswald', sans-serif;
+    margin-right: 30px;
+    padding: 40px 0;
+    /* color: var(--light); */
+    font-size: 17px;
+    text-transform: uppercase;
+    outline: none;
+    color: azure;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.active {
+    color: red;
+}
+
+@media (max-width: 991.98px) {
+    .navbar-dark .navbar-nav .nav-link {
+        margin-right: 0;
+        padding: 10px 0;
+    }
+}
+
+
+
+/* maincontainer */
+.leftcontainer {
+    float: left;
+    width: 50%;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    margin-top: 100px;
+    margin-bottom: 25px;
+
+}
+
+.rightcontainer {
+    float: right;
+    width: 50%;
+    text-align: center;
+    /* background: linear-gradient(rgb(184, 184, 246), rgb(253, 204, 212)); */
+    height: 100%;
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 10px;
+    align-items: start;
+    margin: 25px 25px 25px 25px;
+    justify-content: center;
+    display: flexbox;
+}
+
+.grid>article {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+}
+
+.grid>article img {
+    max-width: 90%;
+    height: 50%;
+    margin: 15px;
+}
+
+.text {
+    padding: 0 20px 20px;
+}
+
+.text>button {
+    background: gray;
+    border: 0;
+    color: white;
+    padding: 10px;
+    width: 100%;
+}
+
+
+
+
+
+
+/* receipt0 */
+
+
+
+.e-recepit {
+    text-align: center;
+    padding-top: 12px;
+    font-size: 20px;
+    background-color: rgb(150, 20, 20);
+    height: 40px;
+    color: white;
+    margin-top: 100px;
+}
+
+.radio-button {
+
+    padding-top: 15px;
+    text-align: center;
+}
+
+#radio1 {
+    margin: 0 10px 0 10px;
+}
+
+#radio2 {
+    margin: 0 10px 0 30px;
+}
+
+#search {
+    margin: 20px;
+    width: 38%;
+    height: 40px;
+    border-radius: 10px 10px 10px 10px;
+    border-color: antiquewhite;
+    font-size: 15px;
+}
+
+.Generate {
+    background-color: rgb(150, 20, 20);
+    height: 40px;
+    margin-left: 31%;
+    margin-right: 31%;
+    border-radius: 10px 10px 10px 10px;
+    color: white;
+    font-size: 15px;
+    margin-top: 0px;
+    padding-top: 12px;
+    text-align: center;
+}
+
+.last-panel {
+    background-color: rgb(150, 20, 20);
+    height: 115px;
+    margin-top: 20px;
+    padding-top: 13px;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+}
+
+hr {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 15px;
+    line-height: 1.5;
+    border-bottom: 1px solid rgb(219, 229, 219);
+}
+
+
+
+
+/* button */
+.rbutton {
+    background-color: white;
+    color: black;
+    border-radius: 10em;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 1em 2em;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid black;
+    box-shadow: 0 0 0 0 black;
+}
+
+.rbutton:hover {
+    transform: translateY(-4px) translateX(-2px);
+    box-shadow: 2px 5px 0 0 black;
+}
+
+;
+
+.rbutton:active {
+    transform: translateY(2px) translateX(1px);
+    box-shadow: 0 0 0 0 black;
+}
+
+
+/* footer */
+footer {
+    clear: both;
+    position: relative;
+    /* height: 200px; */
+    /* margin-top: -200px; */
+}
+
+footer {
+    margin-top: 60px;
+    padding: 60px 0px 30px 0px;
+    background-color: #2a2a2a;
+}
+
+footer .logo {
+    margin-bottom: 20px;
+}
+
+footer ul li {
+    display: block;
+    margin-bottom: 10px;
+}
+
+footer ul li a {
+    font-size: 14px;
+    color: #fff;
+    transition: all .3s;
+}
+
+footer ul li a:hover {
+    color: #aaa;
+}
+
+footer h4 {
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+footer .under-footer {
+    margin-top: 30px;
+    padding-top: 30px;
+    text-align: center;
+    border-top: 1px solid rgba(250, 250, 250, 0.3);
+}
+
+footer .under-footer ul {
+    margin-top: 20px;
+}
+
+footer .under-footer ul li {
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+footer .under-footer ul li a {
+    font-size: 22px;
+}
+
+footer .under-footer p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+footer .under-footer a {
+    color: #cff;
+}
+
+footer .under-footer a:hover {
+    color: #c66;
+}
